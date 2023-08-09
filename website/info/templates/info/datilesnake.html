@@ -1,0 +1,16 @@
+{% extends 'main/general.html' %}
+
+{% block title %}{{ snakes.title }}{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>{{ snakes.title }}</h1>
+        <p>{{ snakes.date }}</p>
+        <p>Имя: {{ snakes.anons }}</p>
+        <p>{{ snakes.text }}</p>
+        <a href="{% url 'datilesnake_delete' snakes.id %}" class="btn btn-danger">Удалить змейку</a>
+        <a href="{% url 'datilesnake_update' snakes.id %}" class="btn btn-info">Редактировать змейку</a>
+
+
+    </div>
+{% endblock %}

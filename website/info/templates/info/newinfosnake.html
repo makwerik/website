@@ -1,0 +1,23 @@
+{% extends 'main/general.html' %}
+
+
+{% block title %}О змейках{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Вспомни нас</h1>
+
+        {% if snakes %}
+            {% for el in snakes %}
+                <div class="alert alert-warning">
+                    <h3>{{ el.title }}</h3>
+                    <a href="{% url 'datilesnake' el.id %}" class="btn btn-warning">Читать</a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>Записей о змейках нет :(</p>
+        {% endif %}
+
+
+    </div>
+{% endblock %}
