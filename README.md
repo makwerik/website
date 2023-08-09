@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    /* Применение стилей для README */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      line-height: 1.6;
-    }
-    h1, h2, h3 {
-      color: #333;
-    }
-    code {
-      background-color: #f4f4f4;
-      border: 1px solid #ddd;
-      border-left: 3px solid #f36d33;
-      color: #666;
-      display: block;
-      margin: 20px 0;
-      padding: 10px;
-      width: 100%;
-      overflow: auto;
-    }
-    ul {
-      list-style-type: disc;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-    }
-  </style>
-</head>
-<body>
-<div class="container">
+
   <h1>Змеи из Мультфильмов: Платформа для знаний о змейках в анимационных произведениях. README by CHATGPT</h1>
 
   <p>Добро пожаловать на сайт "Змеи из Мультфильмов"! Этот проект представляет собой веб-платформу, где вы можете найти информацию о змеях, встречающихся в различных мультфильмах. Но главное — вы сами можете добавлять новую информацию о змейках из ваших любимых анимационных произведений.</p>
